@@ -63,9 +63,6 @@ aws s3 ls s3://akshitha-datalake-assignment
 aws s3api put-bucket-encryption --bucket akshitha-datalake-assignment --server-side-encryption-configuration '{"Rules": [{"ApplyServerSideEncryptionByDefault": {"SSEAlgorithm": "AES256"}}]}'
 ```
 
-```
-aws s3api put-bucket-encryption --bucket akshitha-datalake-assignment --server-side-encryption-configuration '{"Rules": [{"ApplyServerSideEncryptionByDefault": {"SSEAlgorithm": "AES256"}}]}'
-```
 
 #### Get Details of Encryption
 
