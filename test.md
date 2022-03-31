@@ -8,7 +8,7 @@ Amazon S3 A bucket is a container (web folder) for objects (files) which perform
 
 #### 
 
-[Image: S2Cli.png]
+![](https://github.com/akukudala/homework_603/blob/main/S2Cli.png)
 
 
 ### Interacting with S3
@@ -96,18 +96,18 @@ Amazon Athena is a service that makes it easy to create analyze data in Amazon S
 * Go to athena service through AWS management console & click on explore query editor to the right.
 * As shown in the below image click on create table from S3 bucket data source
 
-[Image: image]
+![](https://github.com/akukudala/homework_603/blob/main/Screen%20Shot%202022-03-31%20at%203.26.15%20PM.png)
 
 
 * Select the input location of dataset,  this would be the s3 location/bucket-name as shown in the below image. Athena provide a browse s3 functionality which simplifies locating the s3 bucket. 
 * Once all the required fields are filled out click on create table.
 
-[Image: Screen Shot 2022-03-31 at 3.57.32 PM.png]
+![](https://github.com/akukudala/homework_603/blob/main/Screen%20Shot%202022-03-31%20at%203.57.32%20PM.png)
 
 * Once tables are created successfully we can query the desired data, below are few examples :
 
-[Image: Screen Shot 2022-03-31 at 6.13.27 PM.png]
-[Image: Screen Shot 2022-03-31 at 6.15.56 PM.png]
+![](https://github.com/akukudala/homework_603/blob/main/Screen%20Shot%202022-03-31%20at%206.13.27%20PM.png)
+![](https://github.com/akukudala/homework_603/blob/main/Screen%20Shot%202022-03-31%20at%206.15.56%20PM.png)
 
 ## References 
 
